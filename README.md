@@ -387,7 +387,7 @@ sudo systemctl restart jenkins
    Create a systemd unit configuration file for Prometheus:
 
    ```bash
-   sudo nano /etc/systemd/system/prometheus.service
+   sudo vi /etc/systemd/system/prometheus.service
    ```
 
    Add the following content to the `prometheus.service` file:
@@ -466,7 +466,7 @@ sudo systemctl restart jenkins
    Create a systemd unit configuration file for Node Exporter:
 
    ```bash
-   sudo nano /etc/systemd/system/node_exporter.service
+   sudo vi /etc/systemd/system/node_exporter.service
    ```
 
    Add the following content to the `node_exporter.service` file:
