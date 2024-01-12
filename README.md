@@ -760,7 +760,6 @@ pipeline{
             attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
         }
     }
-}
 ```
 
 # Phase 6: Kubernetes
