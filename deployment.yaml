@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Netflix-deployment
+  name: netflix-deployment
   labels:
     app: netflix-app
 spec:
@@ -19,3 +19,4 @@ spec:
           image: zera18/netflix:latest
           ports:
             - containerPort: 80
+
